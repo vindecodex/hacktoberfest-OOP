@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+						"paths": {
+										"@base/*": ["./base*"],
+										"@sub-class/*": ["./sub-class/*"]
+						}
+		}
+  },
+	"include": ["base/**/*", "sub-class/**/*", "examples/**/*"],
+  "compilerOptions": {
+					"lib": ["DOM"]
+	}
+}

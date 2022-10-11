@@ -1,0 +1,35 @@
+{
+  "name": "hacktoberfest-oop",
+  "version": "1.0.0",
+  "description": "A project to help newly devs contribute to open-source | Hacktoberfest Repository",
+  "main": "examples/index.ts",
+  "scripts": {
+					"start:example": "ts-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vindecodex/hacktoberfest-OOP.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "oop",
+    "hacktoberfest"
+  ],
+  "author": "villalunavincent@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vindecodex/hacktoberfest-OOP/issues"
+  },
+  "homepage": "https://github.com/vindecodex/hacktoberfest-OOP#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "typescript": "^4.8.4"
+  }
+}

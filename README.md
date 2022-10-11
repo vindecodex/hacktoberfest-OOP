@@ -14,7 +14,7 @@ Anyone can contribute by creating a base class that doesn't exist yet, or you ca
 
 4. Save and commit changes
 
-5. Create your branch
+5. Create your branch {GITHUB_USERNAME}/{BASE OR SUBCLASS}-{CLASS_NAME_ADDED} ---- Note: Branch should be followed to get accepted
 
 6. Create a pull request
 
