@@ -10,7 +10,7 @@ Anyone can contribute by creating a base class that doesn't exist yet, or you ca
 
 2. Clone the forked repository
 
-3. Create a base class or extend a base class
+3. Install dep., and start creating a base class or extend a base class
 
 4. Save and commit changes
 
