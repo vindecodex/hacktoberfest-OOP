@@ -1,8 +1,8 @@
 <div align="center">
-				<h1>Hacktoberfest OOP</h1>
-				<img src="https://github.com/vindecodex/hacktoberfest-OOP/actions/workflows/node.js.yml/badge.svg" alt="Test status" />
-				<img src="https://badgen.net/github/contributors/vindecodex/hacktoberfest-OOP" alt="Contributors count" />
-				<img src="https://badgen.net/npm/license/lodash" alt="License MIT" />
+	<h1>Hacktoberfest OOP</h1>
+	<img src="https://github.com/vindecodex/hacktoberfest-OOP/actions/workflows/node.js.yml/badge.svg" alt="Test status" />
+	<img src="https://badgen.net/github/contributors/vindecodex/hacktoberfest-OOP" alt="Contributors count" />
+	<img src="https://badgen.net/npm/license/lodash" alt="License MIT" />
 </div>
 
 Anyone can contribute by creating a base class that doesn't exist yet, or you can extend a base class that is already created by other devs.
@@ -17,12 +17,14 @@ Anyone can contribute by creating a base class that doesn't exist yet, or you ca
 
 4. Write test for your class to justify it's feature, examples on [shape class](/base/shape.spec.ts) and [square class](/sub-class/shape/square.spec.ts)
 
-4. Save and commit changes
+5. Save and commit changes
 
-5. Create your branch {GITHUB_USERNAME}/{BASE OR SUBCLASS}-{CLASS_NAME_ADDED} ---- Note: Branch should be followed to get accepted
+6. Create your branch {GITHUB_USERNAME}/{BASE OR SUBCLASS}-{CLASS_NAME_ADDED} ---- Note: Branch should be followed to get accepted
 
-6. Create a pull request
+7. Create a pull request
 
 ---
+
 ## Issues
+
 Create an issue for improvement on this repository
