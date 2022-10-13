@@ -21,10 +21,15 @@ Anyone can contribute by creating a base class that doesn't exist yet, or you ca
 
 6. Create your branch {GITHUB_USERNAME}/{BASE OR SUBCLASS}-{CLASS_NAME_ADDED} ---- Note: Branch should be followed to get accepted
 
+`Example: vindecodex/subclass-square`
+
 7. Create a pull request
 
 ---
 
 ## Issues
 
-Create an issue for improvement on this repository
+Create an [issue](https://github.com/vindecodex/hacktoberfest-OOP/issues/new) for improvement on this repository
+
+## Contributors
+![Contributors](https://contrib.rocks/image?repo=vindecodex/hacktoberfest-OOP)
