@@ -1,4 +1,4 @@
-import { Shape } from './shape';
+import { Shape } from '../../main/inheritance/Shape';
 
 describe('Shape', () => {
   it('should return fields passed to the shape', () => {

@@ -1,4 +1,4 @@
-import { Shape } from '../../base/shape';
+import { Shape } from './shape';
 
 export class Square extends Shape {
   constructor(sides: number = 0, length: number = 0) {

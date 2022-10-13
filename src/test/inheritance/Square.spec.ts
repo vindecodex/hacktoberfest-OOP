@@ -1,4 +1,4 @@
-import { Square } from './square';
+import { Square } from '../../main/inheritance/Square';
 
 describe('Square', () => {
   // Setup
