@@ -5,7 +5,7 @@
   "main": "examples/index.ts",
   "scripts": {
     "start:example": "ts-node .",
-		"test": "jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

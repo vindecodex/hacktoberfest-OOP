@@ -4,14 +4,14 @@
     "transpileOnly": true,
     "files": true,
     "compilerOptions": {
-						"paths": {
-										"@base/*": ["./base*"],
-										"@sub-class/*": ["./sub-class/*"]
-						}
-		}
+      "paths": {
+        "@base/*": ["./base*"],
+        "@sub-class/*": ["./sub-class/*"]
+      }
+    }
   },
-	"include": ["base/**/*", "sub-class/**/*", "examples/**/*"],
+  "include": ["base/**/*", "sub-class/**/*", "examples/**/*"],
   "compilerOptions": {
-					"lib": ["DOM"]
-	}
+    "lib": ["DOM"]
+  }
 }
