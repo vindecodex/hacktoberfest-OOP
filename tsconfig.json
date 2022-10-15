@@ -1,17 +1,31 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
-  "ts-node": {
-    "transpileOnly": true,
-    "files": true,
-    "compilerOptions": {
-      "paths": {
-        "@base/*": ["./base*"],
-        "@sub-class/*": ["./sub-class/*"]
-      }
-    }
-  },
-  "include": ["base/**/*", "sub-class/**/*", "examples/**/*"],
   "compilerOptions": {
-    "lib": ["DOM"]
-  }
+    // project options
+    "lib": ["ESNext", "dom"],
+    "outDir": "build",
+    "target": "ES6",
+
+    // Module resolution
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {},
+
+    // Source Map
+    "sourceMap": true,
+    "sourceRoot": "/",
+
+    // Strict Checks
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules/**/*", "**/*.spec.ts"]
 }
