@@ -3,7 +3,7 @@ export class Shape {
     private sides: number = 0,
     private length: number = 0,
     private height: number = 0,
-    private name: string = 'shape',
+    private name: string = 'shape', 
   ) {}
 
   getSides(): number {
