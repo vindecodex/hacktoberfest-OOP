@@ -4,7 +4,6 @@
   "description": "A project to help newly devs contribute to open-source | Hacktoberfest Repository",
   "main": "examples/index.ts",
   "scripts": {
-    "start:example": "ts-node .",
     "test": "jest"
   },
   "repository": {
