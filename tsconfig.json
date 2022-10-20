@@ -12,6 +12,6 @@
   },
   "include": ["base/**/*", "sub-class/**/*", "examples/**/*"],
   "compilerOptions": {
-    "lib": ["DOM"]
+    "lib": ["DOM", "ES5"]
   }
 }
