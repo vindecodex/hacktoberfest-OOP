@@ -1,7 +1,7 @@
 import { Tesla } from "./tesla";
 
-describe('Toyota', () => {
-  it('should return fields passed to the Toyota', () => {
+describe('Tesla', () => {
+  it('should return fields passed to the Tesla', () => {
     // Setup
     const expected = {
       name: 'Tesla',
